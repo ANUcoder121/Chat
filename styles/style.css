@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(../public/bckgd.jpg);
+  overflow: hidden;
+}
+.container {
+  background-color: rgb(19, 18, 18);
+  color: white;
+  top: 58%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 36%;
+  /* text-align: center; */
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 95%;
+  border: 4px solid rgba(0, 0, 0, 0.356);
+  border-radius: 2%;
+  margin-top: 2px;
+  overflow-y: scroll;
+}
+.sent {
+  background-color: white;
+  border: 4px solid rgba(0, 0, 0, 0.356);
+  border-radius: 8px;
+  width: 36%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: rgb(19, 18, 18);
+  color: white;
+  top: 2%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  height: 8%;
+}
+form input {
+  width: 80%;
+}
+form button {
+  width: 17%;
+}
+.main .chat_area #chats .left {
+  background-color: rgba(56, 53, 53, 0.781);
+  border: 3px solid rgb(22, 22, 22);
+  width: fit-content;
+  padding: 3px 10px;
+  margin: 4px 0px;
+  font-size: larger;
+  border-radius: 35px;
+  text-align: center;
+  /* margin-bottom: 5px; */
+  clear: both;
+}
+.main .chat_area #chats .mid {
+  /* background-color: rgba(56, 53, 53, 0.781); */
+  /* border: 3px solid rgb(252, 1, 1); */
+  width: fit-content;
+  padding: 3px 10px;
+  margin: 4px 0px;
+  font-size: larger;
+  border-radius: 35px;
+  text-align: center;
+  /* margin-bottom: 5px; */
+  font-size: small;
+  margin-left: 25%;
+  font-family: cursive;
+  font-weight: 500;
+}
+.main .chat_area #chats .right {
+  background-color: rgba(56, 53, 53, 0.781);
+  border: 3px solid rgb(119, 222, 110);
+  width: fit-content;
+  padding: 3px 10px;
+  margin: 4px 0px;
+  font-size: larger;
+  border-radius: 35px;
+  float: right;
+  text-align: center;
+  /* margin-bottom: 5px; */
+  clear: both;
+  box-shadow: 5px 5px 24px rgb(42, 79, 38);
+}
+.message {
+  font-size: large;
+  /* font-weight: 100; */
+  font-family: "Montserrat", sans-serif;
+}
+.bold {
+  font-weight: 700 !important;
+}

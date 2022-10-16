@@ -1,0 +1,51 @@
+<!-- <style src=""></style> -->
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- <style link rel="../styles/style.css"></style> -->
+        <link rel="stylesheet" type="text/css" href="../styles/style.css">
+
+        <!-- FAVICON -->
+        <link rel="apple-touch-icon" sizes="180x180" href="./fav_icon/">
+        <link rel="icon" type="image/png" sizes="32x32" href="./fav_icon//favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./fav_icon//favicon-16x16.png">
+        <link rel="manifest" href="./fav_icon//site.webmanifest">
+        <link rel="mask-icon" href="./fav_icon//safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#b91d47">
+        <meta name="theme-color" content="#ffffff">
+        <!-- FAVICON -->
+        <title>Chat App</title>
+    </head>
+
+    <body>
+        <section class="d-flex align-items-center justify-content-center main">
+            <div class="row flex sent justify-content-center search_area">
+                <form action="#" id="main_form">
+                    <input type="text" name="messageInp" id="messageInp">
+                    <button type="submit" id="send_btn">Send</button>
+                </form>
+            </div>
+            <div class="container row chat_area">
+                <div id="chats">
+                </div>
+
+            </div>
+        </section>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+        <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+        <script src="../script/client.js"></script>
+    </body>
+
+</html>
